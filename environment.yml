@@ -1,0 +1,12 @@
+name: cs221
+channels:
+  - defaults
+dependencies:
+  - python
+  - swig
+  - numpy
+  - keras
+  - pip:
+    - gym
+    - box2d-py
+    - cvxpy
