@@ -145,28 +145,29 @@ batchSize = 64
 if __name__ == '__main__':
     # Initiate weights
     # Cold start weights
-    # weights = None
+    weights = None
     # Warm start weights
-    weights = 'weights.h5'
+#     weights = 'weights.h5'
 
-    # TRAIN
-    # print('\n++++++++++++ TRAINING +++++++++++++')
-    # rl = QLearningAlgorithm([0, 1, 2, 3], discountFactor, weights,
-    #                         explorProbInit, exploreProbDecay,
-    #                         explorationProbMin, batchSize)
-    # env = gym.make('LunarLander-v2')
-    # # env.seed(0)
+    TRAIN
+    print('\n++++++++++++ TRAINING +++++++++++++')
+    rl = QLearningAlgorithm([0, 1, 2, 3], discountFactor, weights,
+                            explorProbInit, exploreProbDecay,
+                            explorationProbMin, batchSize)
+    env = gym.make('LunarLander-v2')
+    # env.seed(0)
 
-    # for i in range(numEpochs):
-    #     totalRewards = simulate(env, rl, numTrials=numTrials, train=True, verbose=False,
-    #                             trialDemoInterval=trialDemoInterval, batchSize=batchSize)
-    #     print('Average Total Reward in Trial {}/{}: {}'.format(i, numEpochs, np.mean(totalRewards)))
-    # env.close()
-    # # Save Weights
-    # rl.model.save('weights.h5')
+    for i in range(numEpochs):
+        totalRewards = simulate(env, rl, numTrials=numTrials, train=True, verbose=False,
+                                trialDemoInterval=trialDemoInterval, batchSize=batchSize)
+        print('Average Total Reward in Trial {}/{}: {}'.format(i, numEpochs, np.mean(totalRewards)))
+    env.close()
+    # Save Weights
+    rl.model.save('weights.h5')
 
     # TEST
     print('\n\n++++++++++++++ TESTING +++++++++++++++')
+    weights = 'weights.h5'
     env = gym.make('LunarLander-v2')
     env.seed(3)
     rl = QLearningAlgorithm([0, 1, 2, 3], discountFactor, weights, 0.0, 0.0, 0.0, batchSize)
