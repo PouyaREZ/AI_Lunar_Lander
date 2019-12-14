@@ -41,7 +41,6 @@ aspects of this problem (e.g. different lander, different route) derived from
 original LunarLander module in OpenAI's gym package.
 
 # Usage
-The following command line argument should work for any python function list above
-and the hyperparameter could be change inside each python file (no access to
-hyperparameter with command line argument). The model was developed in Python 3.7.1.
+The following command line argument should work for any python function listed above
+and the hyperparameter could be changed inside each python file. The model was developed in Python 3.7.1.
 $ python heuristic.py
