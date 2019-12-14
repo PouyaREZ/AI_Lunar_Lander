@@ -149,7 +149,7 @@ if __name__ == '__main__':
     # Warm start weights
 #     weights = 'weights.h5'
 
-    TRAIN
+    # TRAIN
     print('\n++++++++++++ TRAINING +++++++++++++')
     rl = QLearningAlgorithm([0, 1, 2, 3], discountFactor, weights,
                             explorProbInit, exploreProbDecay,
