@@ -13,7 +13,7 @@ Dong Hee Song (dhsong@stanford.edu)
 ###########################################
 
 # Description
-	This package include the following files:
+	This package includes the following files:
 	- environment.yml
 		- A conda environment containing all the requirements to run
 		  the contained python files (Python ver. 3.7.4)
