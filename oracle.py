@@ -1,3 +1,11 @@
+'''###########################################
+CS221 Final Project: Oracle Implementation
+Authors:
+Kongphop Wongpattananukul (kongw@stanford.edu)
+Pouya Rezazadeh Kalehbasti (pouyar@stanford.edu)
+Dong Hee Song (dhsong@stanford.edu)
+###########################################'''
+
 import numpy as np
 import cvxpy as cp
 import matplotlib.pyplot as plt
