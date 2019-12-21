@@ -1,6 +1,6 @@
 ###########################################
 
-CS221 Final Project
+CS221 Final Project: AI Lander
 
 Authors:
 
