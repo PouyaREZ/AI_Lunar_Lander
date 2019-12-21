@@ -1,3 +1,17 @@
+'''###########################################
+
+CS221 Final Project: Heuristic Controller Implementation
+
+Authors:
+
+Kongphop Wongpattananukul (kongw@stanford.edu)
+
+Pouya Rezazadeh Kalehbasti (pouyar@stanford.edu)
+
+Dong Hee Song (dhsong@stanford.edu)
+
+###########################################'''
+
 # import library
 import sys, math
 import numpy as np
