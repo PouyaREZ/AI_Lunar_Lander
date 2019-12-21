@@ -1,3 +1,11 @@
+'''###########################################
+CS221 Final Project: Heuristic Linear Q-Learning Implementation
+Authors:
+Kongphop Wongpattananukul (kongw@stanford.edu)
+Pouya Rezazadeh Kalehbasti (pouyar@stanford.edu)
+Dong Hee Song (dhsong@stanford.edu)
+###########################################'''
+
 import sys, math
 import numpy as np
 from collections import defaultdict
